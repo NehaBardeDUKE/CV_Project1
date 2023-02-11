@@ -36,4 +36,4 @@ torchtext
 torchvision
 tqdm
 transformers
-
+gradio
