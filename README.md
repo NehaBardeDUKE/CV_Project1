@@ -1,5 +1,5 @@
 
-### An Computer Vision Application to detect AI generated art
+# An Computer Vision Application to detect AI generated art
 
 ## Problem:
 ## Context:
@@ -16,8 +16,8 @@
 ## Training Procedure:
 
 ## Evaluation Results:
-# Deep learning Model
-# Non-Deep learning Model
+### Deep learning Model
+### Non-Deep learning Model
 
 ## Citations
 
