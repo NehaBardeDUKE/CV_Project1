@@ -1,25 +1,28 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+# An Computer Vision Application to detect AI generated art
 
-Things included are:
+## Problem:
+## Context:
+## Impact:
 
-* `Makefile`
+## Approach:
 
-* `Pytest`
+## Intended Usage and Limitations:
 
-* `pandas`
+## User guide:
 
-* `Pylint`
+## Training Data:
 
-* `Dockerfile`
+## Training Procedure:
 
-* `GitHub copilot`
+## Evaluation Results:
+### Deep learning Model
+### Non-Deep learning Model
 
-* `jupyter` and `ipython` 
+## Citations
 
-* A base set of libraries for devops and web
 
-* `githubactions` 
+
+
+
 
