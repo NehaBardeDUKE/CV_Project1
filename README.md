@@ -39,7 +39,8 @@ We chose to implement a pre-trained resnet 18 model and fine tuned it to our dat
 
 Model 1: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10
 
-![image](https://user-images.githubusercontent.com/110474064/218646451-2a924de7-cea3-41e2-b43c-0bd400404fca.png)
+![model 1 test classifcation report](https://user-images.githubusercontent.com/50161537/218651583-dc9659c9-2a46-4bea-b242-38e67f0a596a.png)
+![model 1 test confusion matrix](https://user-images.githubusercontent.com/50161537/218651585-04cc779a-3af1-47a1-aa0d-ff419467d9e5.png)
 
 Model 2: epoch num: 25; lr_scheduler step_size = 8; lr = 0.001; gamma = 0.1; batch_size = 10
 
