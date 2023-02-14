@@ -48,8 +48,8 @@ def launch(model_path):
     interface = gr.Interface(
         fn=model_pred, 
         inputs=inputs, 
-        outputs=gr.Label(num_top_classes=2, label="Predictions"), 
-        title="Image Classification Prediction",
+        outputs=gr.Label(num_top_classes=2, label="Classification"), 
+        title="Original vs AI-generated art Classification",
         description="Provide an image and get the predicted class label.")
     interface.launch()
 
