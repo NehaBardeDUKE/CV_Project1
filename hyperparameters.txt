@@ -1,0 +1,5 @@
+Model 1: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10; no defrost parameter training
+Model 2: epoch num: 25; lr_scheduler step_size = 8; lr = 0.001; gamma = 0.1; batch_size = 10; no defrost parameter training
+Model 3: epoch num: 15; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10; defrost parameter training w/ 12 epochs
+Model 4: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.2; batch_size = 10; defrost parameter training w/ 5 epochs
+
