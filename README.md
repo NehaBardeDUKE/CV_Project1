@@ -35,13 +35,21 @@ Demo :https://user-images.githubusercontent.com/110474064/218609768-ea63be4d-7f1
 
 ### Deep learning Model
 We chose to implement a pre-trained resnet 18 model and fine tuned it to our data. We created a total of 4 models by tuning the hyperparameters and then unfreezing all the training layers and performing further hyper parameter tuning. Below is the result we saw for each case on the test dataset-
+
 Model 1: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10
+
 ![image](https://user-images.githubusercontent.com/110474064/218646451-2a924de7-cea3-41e2-b43c-0bd400404fca.png)
+
 Model 2: epoch num: 25; lr_scheduler step_size = 8; lr = 0.001; gamma = 0.1; batch_size = 10
+
 ![image](https://user-images.githubusercontent.com/110474064/218646668-3d5df486-d16b-4a0d-b006-f19ae83014c4.png)
+
 Model 3: epoch num: 15; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10; unfreeze parameter training w/ 12 epochs
+
 ![image](https://user-images.githubusercontent.com/110474064/218646904-d37decdb-8cf9-4de8-9403-806a487de1ba.png)
+
 Model 4: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.2; batch_size = 10; unfreeze parameter training w/ 5 epochs
+
 ![image](https://user-images.githubusercontent.com/110474064/218647355-5075d3cb-a506-475b-b12f-5a176951880b.png)
 
 While we expected to see the the accuracy increase when we unfroze all the layers and trained the model on our data, we saw that the accuracy actually went down for those test cases. These models were not able to generalize better on the orignal human art. The model 2 also tended to overfit the data and perform poorly with the original art detection. The first model however was the most promising one with a high accuracy and better generalization. In the future we would want to increase our dataset and train on equal high volume artificially generated and original art
