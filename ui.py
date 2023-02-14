@@ -3,10 +3,7 @@ from torch import nn
 import copy
 import torchvision
 from torchvision import transforms as T
-from PIL import Image
 import gradio as gr
-from gradio.components import Image, Label
-import os
 
 
 def launch(model_path):
