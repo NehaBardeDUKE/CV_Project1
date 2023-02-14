@@ -29,6 +29,7 @@ Since the model was trained on images generated using Dall.E, it is able to weed
 ## User guide:
 
 User can access the app through the link-https://huggingface.co/spaces/NehaBardeDUKE/ComputerVision_540 . This takes the user to a public space on hugging face where they can drop an image in the input box as prompted and they will get the prediction along with the probability of the prediction. We chose to add this in order to provide the user with explanability of the result.
+
 Demo :https://user-images.githubusercontent.com/110474064/218609768-ea63be4d-7f1c-42ff-a4c2-e99ddb15f909.mp4
 
 ## Evaluation Results:
