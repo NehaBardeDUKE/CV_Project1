@@ -1,18 +1,8 @@
-"""
-Main cli or app entry point
-"""
-
-from mylib.calculator import add
-import click
-
-
-@click.command("add")
-@click.argument("a", type=int)
-@click.argument("b", type=int)
-def add_cli(a, b):
-    click.echo(add(a, b))
-
+# main function for Classification of Diffusion Model Generated Images project
+from ui import launch
 
 if __name__ == "__main__":
-    # pylint: disable=no-value-for-parameter
-    add_cli()
+    model_path = "models/model1.pth" # choose the model wanted to use in models directory
+    launch(model_path)
+
+    
