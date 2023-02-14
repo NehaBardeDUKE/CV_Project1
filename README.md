@@ -1,5 +1,5 @@
 
-# Classification of Diffusion Model Generated Images
+# Classification of Diffusion Model Generated VS Original Art
 
 As part of this project we have built a CNN model, using transfer learning approach , that can distinguish between AI generated art (created using AI-powered tool Dall.E) and original art created by artists. 
 
