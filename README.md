@@ -44,15 +44,18 @@ Model 1: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; bat
 
 Model 2: epoch num: 25; lr_scheduler step_size = 8; lr = 0.001; gamma = 0.1; batch_size = 10
 
-![image](https://user-images.githubusercontent.com/110474064/218646668-3d5df486-d16b-4a0d-b006-f19ae83014c4.png)
+![model 2 test classifcation report](https://user-images.githubusercontent.com/50161537/218651689-78931fa6-e7b7-4213-af9a-0871d5b4358d.png)
+![model 2 test confusion matrix](https://user-images.githubusercontent.com/50161537/218651695-4a7de4f9-bb4f-49a0-bb85-ef8a426a5c15.png)
 
 Model 3: epoch num: 15; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.1; batch_size = 10; unfreeze parameter training w/ 12 epochs
 
-![image](https://user-images.githubusercontent.com/110474064/218646904-d37decdb-8cf9-4de8-9403-806a487de1ba.png)
+![model 3 test classifcation report](https://user-images.githubusercontent.com/50161537/218651738-c9b17118-ebb1-4da3-a2a6-613a562847a9.png)
+![model 3 test confusion matrix](https://user-images.githubusercontent.com/50161537/218651741-1a70615a-4ebd-4878-aeb5-37894536f7bb.png)
 
 Model 4: epoch num: 10; lr_scheduler step_size = 7; lr = 0.001; gamma = 0.2; batch_size = 10; unfreeze parameter training w/ 5 epochs
 
-![image](https://user-images.githubusercontent.com/110474064/218647355-5075d3cb-a506-475b-b12f-5a176951880b.png)
+![model 4 test classifcation report](https://user-images.githubusercontent.com/50161537/218651778-40d3d2f8-bce1-4a31-ade8-2ad58499982b.png)
+![model 4 test confusion matrix](https://user-images.githubusercontent.com/50161537/218651779-c354c526-8c46-4721-9af0-d5679e671ea1.png)
 
 While we expected to see the the accuracy increase when we unfroze all the layers and trained the model on our data, we saw that the accuracy actually went down for those test cases. These models were not able to generalize on the orignal human art. The model 2 also tended to overfit the data and perform poorly with the original art detection. The first model however was the most promising one with a high accuracy and better generalization. In the future we would want to increase our dataset and train on equal high volume artificially generated and original art
 
